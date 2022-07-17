@@ -1,0 +1,134 @@
+/* Animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+/* general */
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family:"koulen", serif;
+    animation:fadeIn 4s;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+h1{
+   text-shadow:0px 1px 10px #FA7000; 
+}
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover,
+ul:hover
+a:hover{
+    text-shadow:0px 1px 20px #FA7000;
+}
+img:hover{
+    filter:grayscale(100%);
+}
+
+/* hero section */
+.hero{
+   background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1637958654064-c17e10b33c23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+   padding: 3em;
+   background-size:cover;
+   background-repeat:no-repeat;
+}
+.hero p{
+    font-size:15px;
+    color: #FA7000;
+    animation:fadeIn 3s;
+}
+.hero h1{
+    font-size:50px;
+    color:#F47D2F;
+    animation:fadeIn 4s;
+}
+.hero h6{
+    font-size:10px;
+    font-weight:normal;
+    color: #E47036;
+    animation:fadeIn 5s;
+}
+.subtitle{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    color:#F47D2F;
+    text-align:center;
+    font-size:15px;
+    text-shadow:0px 2px 5px #FA7000;
+    padding: 1em;
+}
+/* Introduction */
+.Introduction{
+    color:#E47036;
+    text-align:center;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),url("https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    padding: 3em 1em;
+}
+.Introduction h1{
+    font-size:30px;
+}
+.Introduction p{
+    color: #FA7000;
+    font-size:15px;
+}
+.Introduction ul{
+    list-style-type: lower-roman;
+    font-size:15px;
+    color: #FA7000;
+    text-align:left;
+}
+.Introduction img{
+    border-radius:25px;
+    max-height: 300px;
+    object-fit: cover;
+    filter:saturate(50%);
+    padding: 1em 0;
+    width:100%;
+}
+/* Planets */
+.Planet{
+    display:flex;
+    text-align:center;
+    color:#E47036;
+    background:url("https://images.unsplash.com/photo-1616712134411-6b6ae89bc3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+    padding: 1.5em 0.75em;
+}
+.Planet p {
+    color:#FA7000;
+}
+.Planet img{
+    height:160px;
+}
+.Planet a{
+    color:#F47D2F;
+}
+/* Footer */
+.footer{
+   color:#F47D2F;
+   text-align:center;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80");
+    padding: 1em;
+}
+.footer ul{
+   color:#F47D2F;
+   list-style-type:circle;
+   text-align:left;
+}
+.footer a{
+    color:#F47D2F;
+}
